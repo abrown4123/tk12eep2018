@@ -60,17 +60,14 @@ header nav > ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 100%;
 }
 header nav > ul > li {
   font-family: 'Anton', sans-serif;
-  font-size: 2em;
+  font-size: 1.7em;
   color: #fff;
-  padding: 0.5em 1em;
-  width: 50%;
+  padding: 0.1em 1em;
+  width: 100%;
 }
 header nav > ul > li .submenu {
   font-family: 'PT Sans', sans-serif;
@@ -119,7 +116,6 @@ header nav .nav-listen {
 }
 header nav .nav-about:hover,
 header nav .nav-listen:hover {
-  width: 200%;
 }
 header nav .nav-about:hover .submenu,
 header nav .nav-listen:hover .submenu {
