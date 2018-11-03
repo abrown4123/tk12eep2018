@@ -18,7 +18,6 @@ const socialLinks = [
     alt: "Icon for Facebook"
   },
   {
-    class: "bg-white",
     link: "https://twitter.com/K12Engineering",
     title: "Tweet the show (opens in new window)",
     img: "/icons/twitter_blue.png",
