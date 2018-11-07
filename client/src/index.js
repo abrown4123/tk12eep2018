@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from './components/Header/index'
 import NotFound from "./components/NotFound/NotFound";
-import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer";
+import Homepage from "./components/Homepage";
 import registerServiceWorker from './registerServiceWorker';
 
 class ErrorPage extends Component {
@@ -11,7 +12,7 @@ class ErrorPage extends Component {
     return (
       <div>
         <Header />
-        <NotFound />
+        <Homepage />
         <Footer />
       </div>
 
