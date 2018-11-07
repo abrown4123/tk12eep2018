@@ -6,6 +6,7 @@ import NotFound from "./components/NotFound/NotFound";
 import Footer from "./components/Footer/Footer";
 import Homepage from "./components/Homepage";
 import registerServiceWorker from './registerServiceWorker';
+import EpisodePage from "./components/SinglePage/EpisodePage";
 
 class ErrorPage extends Component {
   render() {
@@ -20,11 +21,23 @@ class ErrorPage extends Component {
   }
 }
 
+class SingleEpisodePage extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <EpisodePage />
+        <Footer />
+      </div>
+    )
+  }
+}
 const Site = () => {
   return (
   <Router>
     <Switch>
-      <Route exact path="/" component={ErrorPage} />
+      <Route exact path="/" component={Header} />
+      <Route exact path="/sep" component={SingleEpisodePage} />
       <Route  component={ErrorPage} />
     </Switch>
   </Router>
