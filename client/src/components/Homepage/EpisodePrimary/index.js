@@ -1,5 +1,6 @@
 import React from 'react';
 
+//TODO: Convert into a class based component when backend is ready
 const EpisodePrimary = () => {
     return (
         <section className="episode-primary" id="episode-primary">
